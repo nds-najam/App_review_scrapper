@@ -79,5 +79,17 @@ def index():
         return render_template('index.html')
 
 if __name__ == "__main__":
-    #app.run(host='127.0.0.1', port=8001, debug=True)
-	app.run(debug=True)
+    app.run(host='127.0.0.1', port=8001, debug=True)
+	#app.run(debug=True)
+
+'''
+1. Go to ineuron.ai
+2. List down all the courses
+3. One by one scrap all the course page
+4. Collect all the data segmentwise
+5. Store this data in mySQL system/mongoDB
+6. Deploy it on Heroku, AWS, GCP
+7. Share a deployed link
+8. Optional -> create a UI and showcase in HTML
+9. Use coding standards
+'''
